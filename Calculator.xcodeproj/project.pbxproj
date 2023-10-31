@@ -14,6 +14,7 @@
 		749CEF572AF1805F00F7B08E /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CEF562AF1805F00F7B08E /* CalculatorTests.swift */; };
 		749CEF612AF1805F00F7B08E /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CEF602AF1805F00F7B08E /* CalculatorUITests.swift */; };
 		749CEF632AF1805F00F7B08E /* CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CEF622AF1805F00F7B08E /* CalculatorUITestsLaunchTests.swift */; };
+		749CEF702AF180A500F7B08E /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CEF6F2AF180A500F7B08E /* CircleButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		749CEF5C2AF1805F00F7B08E /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		749CEF602AF1805F00F7B08E /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		749CEF622AF1805F00F7B08E /* CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		749CEF6F2AF180A500F7B08E /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				749CEF472AF1805B00F7B08E /* ContentView.swift */,
 				749CEF492AF1805F00F7B08E /* Assets.xcassets */,
 				749CEF4B2AF1805F00F7B08E /* Preview Content */,
+				749CEF6F2AF180A500F7B08E /* CircleButtonView.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749CEF702AF180A500F7B08E /* CircleButtonView.swift in Sources */,
 				749CEF482AF1805B00F7B08E /* ContentView.swift in Sources */,
 				749CEF462AF1805B00F7B08E /* CalculatorApp.swift in Sources */,
 			);

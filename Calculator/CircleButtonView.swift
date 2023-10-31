@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct CircleButtonView: View {
+    let circleColor : Color
+    let numberOnTheCircle : String
+    let colorOfTheNumber : Color
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Circle()
+                .frame(width:100)
+                .foregroundColor(circleColor)
+            Text(numberOnTheCircle)
+                .font(Font.system(size: 50))
+                .foregroundStyle(colorOfTheNumber)
+        }
     }
 }
 
 #Preview {
-    CircleButtonView()
+    CircleButtonView(circleColor: .gray,  numberOnTheCircle: "3", colorOfTheNumber: .white)
 }
