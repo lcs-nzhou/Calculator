@@ -15,10 +15,10 @@ struct CircleButtonView: View {
     var body: some View {
         ZStack{
             Circle()
-                .frame(width:100)
+                .frame(width:80)
                 .foregroundColor(circleColor)
             Text(numberOnTheCircle)
-                .font(Font.system(size: 50))
+                .font(Font.system(size: 40))
                 .foregroundStyle(colorOfTheNumber)
         }
     }
