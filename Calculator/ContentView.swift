@@ -17,15 +17,15 @@ struct ContentView: View {
                 .padding(.leading, 100)
             HStack{
                 CircleButtonView(circleColor:Color("Lighter Gray"), numberOnTheCircle: "C", colorOfTheNumber: .black)
-                CircleButtonView(circleColor: Color("Lighter Gray"), numberOnTheCircle: "+/-", colorOfTheNumber: .black)
+                CircleButtonView(circleColor: Color("Lighter Gray"), numberOnTheCircle: "±", colorOfTheNumber: .black)
                 CircleButtonView(circleColor: Color("Lighter Gray"), numberOnTheCircle: "%", colorOfTheNumber: .black)
-                CircleButtonView(circleColor: .orange, numberOnTheCircle: "/", colorOfTheNumber: .white)
+                CircleButtonView(circleColor: .orange, numberOnTheCircle: "÷", colorOfTheNumber: .white)
             }
             HStack{
                 CircleButtonView(circleColor: Color("Dark Grey"), numberOnTheCircle: "7", colorOfTheNumber: .white)
                 CircleButtonView(circleColor: Color("Dark Grey"), numberOnTheCircle: "8", colorOfTheNumber: .white)
                 CircleButtonView(circleColor: Color("Dark Grey"), numberOnTheCircle: "9", colorOfTheNumber: .white)
-                CircleButtonView(circleColor: .orange, numberOnTheCircle: "*", colorOfTheNumber: .white)
+                CircleButtonView(circleColor: .orange, numberOnTheCircle: "×", colorOfTheNumber: .white)
             }
             HStack{
                 CircleButtonView(circleColor: Color("Dark Grey"), numberOnTheCircle: "4", colorOfTheNumber: .white)
