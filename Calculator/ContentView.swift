@@ -16,9 +16,9 @@ struct ContentView: View {
                 .foregroundStyle(.white)
                 .padding(.leading, 100)
             HStack{
-                CircleButtonView(circleColor:Color("Light Gray"), numberOnTheCircle: "C", colorOfTheNumber: .black)
-                CircleButtonView(circleColor: Color("Light Gray"), numberOnTheCircle: "+/-", colorOfTheNumber: .black)
-                CircleButtonView(circleColor: Color("Light Gray"), numberOnTheCircle: "%", colorOfTheNumber: .black)
+                CircleButtonView(circleColor:Color("Lighter Gray"), numberOnTheCircle: "C", colorOfTheNumber: .black)
+                CircleButtonView(circleColor: Color("Lighter Gray"), numberOnTheCircle: "+/-", colorOfTheNumber: .black)
+                CircleButtonView(circleColor: Color("Lighter Gray"), numberOnTheCircle: "%", colorOfTheNumber: .black)
                 CircleButtonView(circleColor: .orange, numberOnTheCircle: "/", colorOfTheNumber: .white)
             }
             HStack{
