@@ -9,10 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        VStack(spacing:20) {
+            Spacer()
             Text("6,480")
                 .font(Font.system(size: 90, weight: .thin))
                 .foregroundStyle(.white)
+                .padding(.leading, 100)
             HStack{
                 CircleButtonView(circleColor: .gray, numberOnTheCircle: "C", colorOfTheNumber: .black)
                 CircleButtonView(circleColor: .gray, numberOnTheCircle: "+/-", colorOfTheNumber: .black)
@@ -26,15 +28,15 @@ struct ContentView: View {
                 CircleButtonView(circleColor: .orange, numberOnTheCircle: "*", colorOfTheNumber: .white)
             }
             HStack{
-                CircleButtonView(circleColor: .gray, numberOnTheCircle: "4", colorOfTheNumber: .black)
-                CircleButtonView(circleColor: .gray, numberOnTheCircle: "5", colorOfTheNumber: .black)
-                CircleButtonView(circleColor: .gray, numberOnTheCircle: "6", colorOfTheNumber: .black)
+                CircleButtonView(circleColor: .gray, numberOnTheCircle: "4", colorOfTheNumber: .white)
+                CircleButtonView(circleColor: .gray, numberOnTheCircle: "5", colorOfTheNumber: .white)
+                CircleButtonView(circleColor: .gray, numberOnTheCircle: "6", colorOfTheNumber: .white)
                 CircleButtonView(circleColor: .orange, numberOnTheCircle: "-", colorOfTheNumber: .white)
             }
             HStack{
-                CircleButtonView(circleColor: .gray, numberOnTheCircle: "1", colorOfTheNumber: .black)
-                CircleButtonView(circleColor: .gray, numberOnTheCircle: "2", colorOfTheNumber: .black)
-                CircleButtonView(circleColor: .gray, numberOnTheCircle: "3", colorOfTheNumber: .black)
+                CircleButtonView(circleColor: .gray, numberOnTheCircle: "1", colorOfTheNumber: .white)
+                CircleButtonView(circleColor: .gray, numberOnTheCircle: "2", colorOfTheNumber: .white)
+                CircleButtonView(circleColor: .gray, numberOnTheCircle: "3", colorOfTheNumber: .white)
                 CircleButtonView(circleColor: .orange, numberOnTheCircle: "+", colorOfTheNumber: .white)
             }
             HStack{
@@ -46,9 +48,10 @@ struct ContentView: View {
                         .font(Font.system(size: 40))
                         .frame(alignment: .leading)
                 }
-                CircleButtonView(circleColor: .gray, numberOnTheCircle: ".", colorOfTheNumber: .black)
+                CircleButtonView(circleColor: .gray, numberOnTheCircle: ".", colorOfTheNumber: .white)
                 CircleButtonView(circleColor: .orange, numberOnTheCircle: "=", colorOfTheNumber: .white)
             }
+            .padding(.bottom)
         }
         .padding()
     }
